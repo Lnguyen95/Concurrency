@@ -43,11 +43,11 @@ Implement threads & parallel array
 		}
 		return total;
 	}
-	//Parallel methods
+	//Parallel array sum
 	public static int parallelSum(int[] arr) {
 		return parallelSum(arr, Runtime.getRuntime().availableProcessors());
 	}
-
+	//Parallel methods
 	public static int parallelSum(int[] arr, int threads) {
 		int size = (int) Math.ceil(arr.length * 1.0 / threads);
 
