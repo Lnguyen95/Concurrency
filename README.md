@@ -29,7 +29,7 @@ Implement threads & parallel array
 	public void run() {
 		partial = sum(array, low, high);
 	}
-
+	//Create array sum
 	public static int sum(int[] arr) {
 		return sum(arr, 0, arr.length);
 	}
