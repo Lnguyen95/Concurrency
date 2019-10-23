@@ -1,5 +1,5 @@
 # Concurrency
-Implement parallel array
+Implement threads & parallel array
 
     Author: Luc Nguyen
     Class: CEN 3024C
